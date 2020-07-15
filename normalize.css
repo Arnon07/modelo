@@ -1,0 +1,16 @@
+.btn{
+  cursor: pointer;
+  outline: none;
+  width:auto;
+  height:4vw;
+  background-color:cadetblue;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  color: white;
+}
+
+.center{
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+}

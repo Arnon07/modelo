@@ -1,0 +1,113 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+header {
+  border-bottom: 1px solid #333;
+  background: rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  background: white;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.logo {
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.links {
+  padding-right: 35px;
+}
+.links a {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  text-decoration: none;
+}
+.principal {
+  height: 34vw;
+  background-color: #f8a82f;
+  display: flex;
+}
+.ladoA {
+  width: 50%;
+  padding-top: 5vw;
+  padding-left: 4vw;
+}
+.texto {
+  font-size: 3vw;
+}
+.btn-1 {
+  border-radius: 5vw;
+  background-color: transparent;
+  font-size: 1.2vw;
+  border: 0.1vw solid white;
+  position: relative;
+  margin-top: 3vw;
+}
+.btn-1:hover {
+  background-color: #ff9900;
+  transition: 0.5s;
+}
+.icon1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 1vw;
+  margin-right: 1.3vw;
+}
+.ladoB {
+  width: 70%;
+}
+.ladoB img {
+  width: 40vw;
+  margin-left: 20vw;
+}
+.conteudo {
+  color: black;
+  font-size: 2vw;
+  display: flex;
+  width: 100%;
+  padding-top: 1.3vw;
+  padding-bottom: 1.3vw;
+}
+.text-1 {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+.border {
+  border-left: 0.2vw solid black;
+  border-right: 0.2vw solid black;
+}
+.conteudo .first {
+  width: 50%;
+}
+.conteudo .first .icon .icon.material-icons {
+  font-size: 5vw;
+  padding-top: 3vw;
+}
+.center p {
+  padding-left: 5vw;
+  padding-top: 1vw;
+  padding-right: 4vw;
+  font-size: 1.3vw;
+  line-height: 1.2vw;
+  font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+  background-color: #282a36;
+}
+/* css mobile*/
+@media (max-width: 991px) {
+}
